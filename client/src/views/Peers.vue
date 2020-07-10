@@ -9,7 +9,7 @@
 
       <template v-else>
         <v-layout align-center justify-center>
-          <p>The Verge network protocol allows full nodes (peers) to collaboratively maintain a peer-to-peer network for block and transaction exchange</p>
+          <p>The Reex network protocol allows full nodes (peers) to collaboratively maintain a peer-to-peer network for block and transaction exchange</p>
         </v-layout>
 
         <v-flex

@@ -1,6 +1,6 @@
-# VergeExplorer
+# ReexExplorer
 
-A responsive design Verge (XVG) Cryptocurrency Blockchain Explorer built on top of KoaJS JSON API (NodeJS) backend and VueJS (vue-cli) frontend
+A responsive design Reex (REEX) Cryptocurrency Blockchain Explorer built on top of KoaJS JSON API (NodeJS) backend and VueJS (vue-cli) frontend
 
 ## Getting Started
 
@@ -13,7 +13,7 @@ These instructions will get you a copy of the project up and running on your loc
 * NodeJS v10.16.3
 * NPM v6.9.0
 * MongoDB v4.0.12 with Replica Set enabled and configured (required for ACID transactions)
-* Verge Daemon v6.0.2 (Fully Synced) -> verge-6.0.2-x86_64-linux-gnu.tar.gz [https://github.com/vergecurrency/VERGE/releases]
+* Reex Daemon v6.0.2 (Fully Synced) -> verge-6.0.2-x86_64-linux-gnu.tar.gz [https://github.com/vergecurrency/VERGE/releases]
 ```
 
 What is not covered here
@@ -30,7 +30,7 @@ A step by step series of examples that tell you how to get a development environ
 Clone the repository
 
 ```
-git clone https://github.com/peengo/vergeexplorer.git
+git clone https://github.com/Hser2bio/reexexplorer.git
 ```
 
 Install npm packages and dependencies
@@ -49,7 +49,7 @@ Copy `VERGE.conf` file to this directory
 
 Fill out `rpcuser=` and `rpcpassword=` fields in this file. You decide what this two will be. You will use this values later in `.env` file
 
-Start the Verge Daemon (RPC)
+Start the Reex Daemon (RPC)
 ```
 ./verge-6.0.2/bin/verged -daemon
 ```
@@ -96,7 +96,7 @@ db.ios.createIndex({ time: -1, type: -1 }, { background: true })
 
 **Start syncing blockchain to the database**
 
-Do this when the Verge Daemon is running (fully synced) and accepting commands
+Do this when the Reex Daemon is running (fully synced) and accepting commands
 
 inside `server` folder
 ```

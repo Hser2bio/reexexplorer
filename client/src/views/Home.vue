@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-layout align-center justify-center text-xs-center mb-5 mt-3>
-      <h1>Verge ({{ $CURRENCY }}) Cryptocurrency Blockchain Explorer</h1>
+      <h1>Reex ({{ $CURRENCY }}) Cryptocurrency Blockchain Explorer</h1>
     </v-layout>
 
     <v-divider class="my-3 mx-2"></v-divider>

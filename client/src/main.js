@@ -17,7 +17,7 @@ import axios from "axios";
 
 Vue.prototype.$http = axios;
 Vue.prototype.$filters = Vue.options.filters;
-Vue.prototype.$CURRENCY = 'XVG';
+Vue.prototype.$CURRENCY = 'REEX';
 
 Vue.use(Vuetify, {
   components: { VLayout },

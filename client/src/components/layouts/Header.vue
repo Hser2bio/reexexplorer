@@ -4,7 +4,7 @@
       <router-link :to="{ name: 'home'}">
         <v-toolbar-title class="mr-3 white--text">
           <img style="vertical-align:middle" :src="`${publicPath}logo.png`" alt="logo" class="mr-2" />
-          <span class="text-truncate">VergeExplorer</span>
+          <span class="text-truncate">ReexExplorer</span>
         </v-toolbar-title>
       </router-link>
 

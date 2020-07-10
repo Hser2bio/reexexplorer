@@ -20,7 +20,7 @@
           This website was built from scratch. Source code is available on
           <a
             alt="GitHub"
-            href="https://github.com/peengo/vergeexplorer"
+            href="https://github.com/Hser2bio/reexexplorer"
           >GitHub</a>. Donations are not necesarry but are greatly appreciated. Donations keep this website online. All donations are non-refundable. To show the support you can also use the Binance exchange referral link below.
         </v-card-text>
         <v-card-text class="subheading text-xs-center">VERGE ({{ $CURRENCY }})</v-card-text>
@@ -54,11 +54,11 @@
       <v-btn flat round @click.stop="donationsDialog = true">
         <v-icon left small>fas fa-hand-holding-usd</v-icon>Donations
       </v-btn>
-      <v-btn href="https://github.com/peengo/vergeexplorer" flat round>
+      <v-btn href="https://github.com/Hser2bio/reexexplorer" flat round>
         <v-icon left>fab fa-github</v-icon>GitHub
       </v-btn>
       <v-flex py-3 text-xs-center xs12 class="accent--text">
-        VergeExplorer
+        ReexExplorer
         <v-icon small>fa fa-copyright</v-icon>&nbsp;2020
       </v-flex>
     </v-layout>
