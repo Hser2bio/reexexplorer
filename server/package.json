@@ -16,7 +16,7 @@
     "license": "MIT",
     "dependencies": {
         "@koa/cors": "^2.2.3",
-        "axios": "^0.18.1",
+        "axios": "^0.21.1",
         "decimal.js-light": "^2.5.0",
         "dotenv": "^7.0.0",
         "koa": "^2.7.0",
